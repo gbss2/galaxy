@@ -4,10 +4,10 @@ Para conectar à plataforma do Galaxy, são necessárias 3 etapas:
 ligando a máquina onde a nossa plataforma irá rodar. Para executar esta etapa, é necessário (em ordem):
 	i) logar na GCloud com o usuário ti.admin@biobureau.com.br
  		- gcloud auth login ti.admin@biobureau.com.br
-	ii) migrar para o projeto de ID "neat-acre-184612", onde a nossa instância de interesse fora inicializada 
- 		- gcloud config set project neat-acre-184612
-	iii) conectar à instância de interesse (no nosso caso, é a instância "instance-2", hospedada na zona "europe-west1-d"
- 		- gcloud compute ssh ti.admin@instance-2 --zone europe-west1-d
+	ii) migrar para o projeto de ID "galaxy-203511", onde a nossa instância de interesse fora inicializada 
+ 		- gcloud config set project galaxy-203511
+	iii) conectar à instância de interesse (no nosso caso, é a instância "galaxy-server", hospedada na zona "us-central1-c"
+ 		- gcloud compute ssh ti.admin@galaxy-server --zone "us-central1-c"
 		
 2) Uma vez conectado à instância da GCloud, é preciso **executar o servidor do Galaxy**. Para isso devemos: 
 	i) migrar para a pasta /galaxy, que se localiza dentro da pasta do usuário rafaelcuadrat
