@@ -13,8 +13,9 @@ ligando a máquina onde a nossa plataforma irá rodar. Para executar esta etapa,
 	i) migrar para a pasta /galaxy, que se localiza dentro da pasta do usuário rafaelcuadrat
 		- cd /home/rafaelcuadrat/galaxy/
 	ii) disparar o script que faz rodar a plataforma Galaxy
-		- sudo nohup ./run.sh
-		PS: o comando nohup fará o Galaxy rodar em background na instância. Nese caso, é possível fechar a janela da instância e a
+		- screen 
+		- sudo ./run.sh
+		PS: o comando screen fará o Galaxy rodar em background na instância. Nese caso, é possível fechar a janela da instância e a
 		plataforma continuará funcionando. 
 	iii) esperar até que uma mensagem de confirmação de que o servidor está rodando apareça na tela:
 		- essa mensagem deveria ser algo do tipo: "serving on ___ view at http://___"
