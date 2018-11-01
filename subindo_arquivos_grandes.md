@@ -1,5 +1,5 @@
 ### Problema
-O galaxy não permite subir arquivos maires que 2GB via a ferramenta usual "Upload File". De acordo com a [página oficial](https://galaxyproject.org/ftp-upload/#file-upload-via-ftp), subir arquivos usando esta ferramenta pode ser demorado demais e não confiável.
+O galaxy não permite subir arquivos maires que 2GB via a ferramenta usual "Upload File". De acordo com a [página oficial](https://galaxyproject.org/ftp-upload/#file-upload-via-ftp), subir arquivos grandes usando esta ferramenta pode ser demorado demais e não confiável.
 
 ### Solução
 Para contornar este problema, há duas alternativas:  
