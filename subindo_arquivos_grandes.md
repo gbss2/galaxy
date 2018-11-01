@@ -13,7 +13,7 @@ ii. O arquivo teste ("1a_S1_R1_001.fastq.gz", 2.7 GB) foi subido para a respecti
 
 ### Tutorial para subir os arquivos  
 Para fazer o upload de arquivos maiores que 2GB para a nossa instalação do Galaxy, seguir as etapas:  
-i. Suba o arquivo de interesse para a pasta /home/rafaelcuadrat/galaxy/data/ti.admin@biobureau.com.br, na máquina virtual que contém o servidor instalado do Galaxy
+i. Suba o arquivo de interesse para a pasta /home/rafaelcuadrat/galaxy/data/ti.admin@biobureau.com.br, na máquina virtual que contém o servidor instalado do Galaxy  
 ii. No console da plataforma Galaxy, clique em Shared Data > Data Libraries  
 iii. Na página Data Libraries, selecione a library que deseja usar para a importação ou crie uma nova  
 iv. Na página da library selcionada, clique no botão "Add Datasets to Current Folder > from User Directory"  
