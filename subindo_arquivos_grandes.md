@@ -1,7 +1,7 @@
-####Problema
+### Problema
 O galaxy não permite subir arquivos maires que 2GB via a ferramenta usual "Upload File". De acordo com a [página oficial](https://galaxyproject.org/ftp-upload/#file-upload-via-ftp), subir arquivos usando esta ferramenta pode ser demorado demais e não confiável.
 
-####Solução
+### Solução
 Para contornar este problema, há duas alternativas:  
 i. Configurar a instalação do Galaxy para subir arquivos via protocolo FTP  
 ii. Importar os arquivos desejados para Libraries, e de lá lançar os arquivos para o History.  
