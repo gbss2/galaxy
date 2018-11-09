@@ -28,7 +28,7 @@ Para conectar à plataforma do Galaxy, são necessárias 3 etapas:
 		- login: ti.admin@biobureau.com.br
 		- senha: d@t@biomics4biobureau  
 		
-### Acesso via API  
+## Acesso via API  
 O acesso à instância Galaxy será feito utilizando a biblioteca [bioblend](bioblend-link). As primeiras 13 linhas do arquivo [workflow-invoke-API.py](https://github.com/biobureaubiotech/galaxy/blob/master/workflow-invoke-API.py), que será utilizado para rodar workflows a partir da API do Galaxy, mostram como iniciar um objeto da nossa instância de interesse.  
 
 **IMPORTANTE:** Para estabelecer conexão via API, a instância Galaxy deve ter sido previamente iniciada (rodando o script run.sh) 
