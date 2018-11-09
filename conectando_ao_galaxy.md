@@ -26,4 +26,7 @@ Para conectar à plataforma do Galaxy, são necessárias 3 etapas:
 		- http://IP_externo
 	3) logar no Galaxy
 		- login: ti.admin@biobureau.com.br
-		- senha: d@t@biomics4biobureau
+		- senha: d@t@biomics4biobureau  
+		
+### Acesso via API  
+Para acessar a instância Galaxy via API, será necessária uma chave de API, que é: 2b16b35c558c591d712b8e988ddb4a57.
